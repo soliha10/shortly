@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shortly</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a class="logo-link" href="./index.html">
+          <img class="site-logo" src="./images/logo.svg" alt="logo of site" width="120" height="32">
+        </a>
+        <button class="menu-btn js-btn"></button>
+        <div class="head-links">
+          <nav class="site-navigations">
+            <ul class="nav-list">
+              <li class="nav-item"><a class="nav-item-link item-link" href="#">Features</a></li>
+              <li class="nav-item"><a class="nav-item-link item-link" href="#">Pricing</a></li>
+              <li class="nav-item"><a class="nav-item-link item-link" href="#">Resources</a></li>
+            </ul>
+          </nav>
+
+          <ul class="register-list">
+            <li class="register-item">
+              <a class="register-item-link login item-link" href="#">Login</a>
+            </li>
+            <li class="register-item">
+              <a class="register-item-link sign-up item-link" href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-inner">
+            <div class="hero-left">
+              <h1 class="hero-title">More than just shorter links</h1>
+              <div class="hero-desc-wrapper">
+                <p class="hero-desc">Build your brand’s recognition and get detailed insights on how your links are
+                  performing.
+                </p>
+              </div>
+              <a class="hero-link" href="">Get Started</a>
+            </div>
+          </div>
+          <form class="hero-form" method="POST" autocomplete="off" id="shorten-link">
+            <input class="short-link" name="link_name" type="text"
+              aria-label="enter the link that you want to shorten it" placeholder="Shorten a link here...">
+            <button form="shorten-link" class="form-btn" type="submit">Shorten It!</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="statistics">
+      <div class="container">
+        <div class="title-wrapper">
+          <h2 class="statistic-title">Advanced Statistics</h2>
+          <p class=" statistic-desc">Track how your links are performing across the web with our advanced statistics
+            dashboard.</p>
+        </div>
+        <ul class="st-list">
+          <li class="st-item">
+            <h3 class="st-item-subheading">Brand Recognition</h3>
+            <p class="st-item-info">Boost your brand recognition with each click. Generic links don’t mean a thing.
+              Branded links help instil confidence in your content.</p>
+          </li>
+          <!-- <span class="line">
+          </span> -->
+          <li class="st-item brand">
+
+            <h3 class="st-item-subheading">Detailed Records</h3>
+            <p class="st-item-info">Gain insights into who is clicking your links. Knowing when and where people engage
+              with your content helps inform better decisions.</p>
+          </li>
+          <!-- <span class="next-line">
+          </span> -->
+          <li class="st-item custom">
+
+            <h3 class="st-item-subheading">Fully Customizable</h3>
+            <p class="st-item-info">Improve brand awareness and content discoverability through customizable links,
+              supercharging audience engagement.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="boost-link">
+      <div class="container">
+        <div class="boost-inner">
+          <h2 class="boost-title">Boost your links today</h2>
+          <a class="hero-link boost" href="">Get Started</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <a class="footer-logo-link" href="./index.html">
+          <img class="footer-logo" src="./images/whitelogo.svg" alt="logo of site"></a>
+        <div class="footer-lists">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <p class="footer-subheading">Features</p>
+              <ul class="features-list">
+                <li class="features-item">
+                  <a class="features-link" href="#">Link Shortening
+                  </a>
+                </li>
+                <li class="features-item">
+                  <a class="features-link" href="#">Branded Links</a>
+                </li>
+                <li class="features-item">
+                  <a class="features-link" href="#">Analytics</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer-item">
+              <p class="footer-subheading">Resources</p>
+              <ul class="features-list">
+                <li class="features-item">
+                  <a class="features-link" href="#">Blog
+                  </a>
+                </li>
+                <li class="features-item">
+                  <a class="features-link" href="#">Developers</a>
+                </li>
+                <li class="features-item">
+                  <a class="features-link" href="#">Support</a>
+                </li>
+              </ul>
+            </li>
+            <li class="footer-item">
+              <p class="footer-subheading">Company</p>
+              <ul class="features-list">
+                <li class="features-item">
+                  <a class="features-link" href="#">About
+                  </a>
+                </li>
+                <li class="features-item">
+                  <a class="features-link" href="#">Our Team</a>
+                </li>
+                <li class="features-item">
+                  <a class="features-link" href="#">Careers</a>
+                </li>
+                <li class="features-item">
+                  <a class="features-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="social-list">
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <img class="social-pic" src="./images/facebook.jpg" alt="facebook" width="24" height="24"></a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <img class="social-pic" src="./images/twitter.jpg" alt="twitter" width="24" height="24"></a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <img class="social-pic" src="./images/pinterest.jpg" alt="pinterest" width="24" height="24"></a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="#">
+                <img class="social-pic" src="./images/instagram.jpg" alt="instagram" width="24" height="24"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
